@@ -1,0 +1,61 @@
+
+
+.dashboard{
+  margin: auto;
+  height:650px;
+  width:95%;
+  display: grid;
+  grid-template-columns: 30% 50% 18% ;
+  gap: 10px;
+  border: 1px solid black;
+}
+  .dashboard > div{
+    margin-top: 10px;
+    margin-left: 10px;
+  
+  }
+ 
+  .card1 > div{
+    width:100%;
+    height:300px;
+    margin-bottom: 10px;
+      border: 1px solid black;
+  }
+  .subcard1{
+    width:100%;
+    height:200px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+     display: flex;
+    flex-direction:column;
+  }
+    .subcard2{
+    width:100%;
+    height:400px;
+    margin-bottom: 10px;
+      border: 1px solid black;
+  } 
+.card3>div{
+  width:95%;
+  height:196px;
+ margin-bottom: 10px;
+ border: 1px solid black;
+}
+.inp_items{
+  display: flex;
+  gap: 3px;
+}
+input{
+  width:60%;
+  height:40px;
+  margin-left: 5px;
+}
+  button{
+   width:30%;
+   background-color: black;
+   border-radius:3px;
+   color: white;
+   margin-right: 5px;
+}
+  
+
